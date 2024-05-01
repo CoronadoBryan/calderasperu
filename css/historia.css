@@ -1,0 +1,50 @@
+/* CSS para la sección de Misión y Visión */
+.mission-vision-section {
+    background-color: #f8f9fa;
+}
+
+.mission-vision-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #13C5DD ; /* Borde */
+    transition: all 0.3s ease;
+}
+
+.mission-vision-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    color: #13C5DD ;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #13C5DD ;
+    padding-bottom: 10px;
+}
+
+
+/* CSS adicional */
+.content-scrollable {
+    max-height: 300px; /* Altura máxima del contenido */
+    overflow-y: auto; /* Hacer que el contenido sea desplazable verticalmente si excede la altura máxima */
+}
+
+.mission-vision-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #13C5DD;
+    transition: all 0.3s ease;
+    height: 100%; /* Garantizar que los contenedores tengan la misma altura */
+}
+
+
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
